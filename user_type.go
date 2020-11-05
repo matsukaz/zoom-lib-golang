@@ -76,7 +76,7 @@ type User struct {
 	EnableAutoRecording              bool     `json:"enable_auto_recording"`
 	EnableCloudAutoRecording         bool     `json:"enable_cloud_auto_recording"`
 	Verified                         int      `json:"verified"`
-	PMI                              int      `json:"pmi"`
+	PMI                              int64    `json:"pmi"`
 	MeetingCapacity                  int      `json:"meeting_capacity"`
 	EnableWebinar                    bool     `json:"enable_webinar"`
 	WebinarCapacity                  int      `json:"webinar_capacity"`
